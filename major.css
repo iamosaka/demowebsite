@@ -1,0 +1,18 @@
+h1 {background-color:blue; font:arial; font-size:20; text-align:center;}
+
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+   
+}
+
+td, th {
+    border: 20px;
+    text-align: left;
+    padding: 10px;
+    
+}
+
+tr:nth-child(even) {
+    background-color:tomato;
+}
