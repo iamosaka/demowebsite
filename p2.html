@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/major.css"/>
+	<title> MOBILE FORENSICS </title>
+  
+<h1> HOW TO FORENSIC A MOBILE PHONE? </h1>
+<hr>
+
+</head>
+<body>
+
+	<table>
+		<tr>
+   		 <th>PROCESS</th>
+    	 <th>MEANING</th>
+  		</tr>
+  		<tr>
+   		 <td><strong>Siezure</strong></td>
+   		 <td>Seizing mobile devices is covered by the same legal considerations as other digital media. Mobiles will often be recovered switched on; as the aim of seizure is to preserve evidence, the device will often be transported in the same state to avoid a shutdown, which would change files. In addition, the investigator or first responder would risk user lock activation.
+
+However, leaving the phone on carries another risk: the device can still make a network/cellular connection. This may bring in new data, overwriting evidence. To prevent a connection, mobile devices will often be transported and examined from within a Faraday cage (or bag). Even so, there are two disadvantages to this method. First, it renders the device unusable, as its touch screen or keypad cannot be used. Second, a device's search for a network connection will drain its battery more quickly. While devices and their batteries can often be recharged, again, the investigator risks that the phone's user lock will have activated. Therefore, network isolation is advisable either through placing the device in Airplane Mode, or cloning its SIM card (a technique which can also be useful when the device is missing its SIM card entirely).</td>
+ 		 </tr>
+ 		 <tr>
+   		 <td><strong>Acquisition</strong></td>
+   		 <td>The second step in the forensic process is acquisition, in this case usually referring to retrieval of material from a device (as compared to the bit-copy imaging used in computer forensics).
+
+Due to the proprietary nature of mobiles it is often not possible to acquire data with it powered down; most mobile device acquisition is performed live. With more advanced smartphones using advanced memory management, connecting it to a recharger and putting it into a faraday cage may not be good practice. The mobile device would recognize the network disconnection and therefore it would change its status information that can trigger the memory manager to write data.
+
+Most acquisition tools for mobile devices are commercial in nature and consist of a hardware and software component, often automated. </td>
+ 		 </tr>
+ 		 <td><strong>Examination and Analysis</strong></td>
+   		 <td>As an increasing number of mobile devices use high-level file systems, similar to the file systems of computers, methods and tools can be taken over from hard disk forensics or only need slight changes.
+
+The FAT file system is generally used on NAND memory. A difference is the block size used, which is larger than 512 bytes for hard disks and depends on the used memory type, e.g., NOR type 64, 128, 256 and NAND memory 16, 128, 256, or 512 kilobyte.
+
+Different software tools can extract the data from the memory image. One could use specialized and automated forensic software products or generic file viewers such as any hex editor to search for characteristics of file headers. The advantage of the hex editor is the deeper insight into the memory management, but working with a hex editor means a lot of handwork and file system as well as file header knowledge. In contrast, specialized forensic software simplifies the search and extracts the data but may not find everything. AccessData, Sleuthkit, and EnCase, to mention only some, are forensic software products to analyze memory images.[14] Since there is no tool that extracts all possible information, it is advisable to use two or more tools for examination. There is currently (February 2010) no software solution to get all evidences from flash memories. </td>
+ 		 </tr>
+
+
+</table>
+
+<a href="p3.html"> Next </a><br>
+<a href="web.html"> HOME </h2>
+
+<footer>
+  <p style="text-align: right; background-color: powderblue; padding:5px;"> Designed by &copy OSAKA August 6, 2018 </p>
+</footer>
+
+</body>
+</html>
+
+
+
+
